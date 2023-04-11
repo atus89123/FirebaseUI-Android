@@ -27,7 +27,7 @@ public class CredentialUtils {
     /**
      * Build a credential for the specified {@link FirebaseUser} with optional password and {@link
      * IdpResponse}.
-     * <p>
+     *
      * If the credential cannot be built (for example, empty email) then will return {@code null}.
      */
     @Nullable

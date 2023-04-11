@@ -59,7 +59,7 @@ public final class FirestoreRecyclerOptions<T> {
 
         /**
          * Directly set the {@link ObservableSnapshotArray}.
-         * <p>
+         *
          * Do not call this method after calling {@code setQuery}.
          */
         @NonNull
@@ -89,7 +89,7 @@ public final class FirestoreRecyclerOptions<T> {
         /**
          * Set the query to use (with options) and provide a model class to which each snapshot will
          * be converted.
-         * <p>
+         *
          * Do not call this method after calling {@link #setSnapshotArray(ObservableSnapshotArray)}.
          */
         @NonNull
@@ -101,7 +101,7 @@ public final class FirestoreRecyclerOptions<T> {
 
         /**
          * Set the query to use (with options) and provide a custom {@link SnapshotParser}.
-         * <p>
+         *
          * Do not call this method after calling {@link #setSnapshotArray(ObservableSnapshotArray)}.
          */
         @NonNull

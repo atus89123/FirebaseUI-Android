@@ -18,8 +18,8 @@ import androidx.annotation.RestrictTo;
 
 /**
  * Merges an existing account's profile with the new user's profile.
- * <p>
- * <b>Note:</b> This operation always returns a successful task to minimize login interruptions.
+ *
+ * Note: This operation always returns a successful task to minimize login interruptions.
  */
 @RestrictTo(RestrictTo.Scope.LIBRARY_GROUP)
 public class ProfileMerger implements Continuation<AuthResult, Task<AuthResult>> {

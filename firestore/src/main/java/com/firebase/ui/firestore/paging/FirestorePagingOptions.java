@@ -22,7 +22,7 @@ import static com.firebase.ui.common.Preconditions.assertNull;
 
 /**
  * Options to configure an {@link FirestorePagingAdapter}.
- * <p>
+ *
  * Use {@link Builder} to create a new instance.
  */
 public final class FirestorePagingOptions<T> {
@@ -78,7 +78,7 @@ public final class FirestorePagingOptions<T> {
         /**
          * Directly set data using and parse with a {@link ClassSnapshotParser} based on the given
          * class.
-         * <p>
+         *
          * Do not call this method after calling {@code setQuery}.
          */
         @NonNull
@@ -89,7 +89,7 @@ public final class FirestorePagingOptions<T> {
 
         /**
          * Directly set data and parse with a custom {@link SnapshotParser}.
-         * <p>
+         *
          * Do not call this method after calling {@code setQuery}.
          */
         @NonNull
@@ -105,7 +105,7 @@ public final class FirestorePagingOptions<T> {
         /**
          * Sets the query using {@link Source#DEFAULT} and a {@link ClassSnapshotParser} based on
          * the given Class.
-         * <p>
+         *
          * See {@link #setQuery(Query, Source, PagingConfig, SnapshotParser)}.
          */
         @NonNull
@@ -117,7 +117,7 @@ public final class FirestorePagingOptions<T> {
 
         /**
          * Sets the query using {@link Source#DEFAULT} and a custom {@link SnapshotParser}.
-         * <p>
+         *
          * See {@link #setQuery(Query, Source, PagingConfig, SnapshotParser)}.
          */
         @NonNull
@@ -130,7 +130,7 @@ public final class FirestorePagingOptions<T> {
         /**
          * Sets the query using a custom {@link Source} and a {@link ClassSnapshotParser} based on
          * the given class.
-         * <p>
+         *
          * See {@link #setQuery(Query, Source, PagingConfig, SnapshotParser)}.
          */
         @NonNull
@@ -173,7 +173,7 @@ public final class FirestorePagingOptions<T> {
         /**
          * Sets an optional custom {@link DiffUtil.ItemCallback} to compare {@link DocumentSnapshot}
          * objects.
-         * <p>
+         *
          * The default implementation is {@link DefaultSnapshotDiffCallback}.
          *
          * @return this, for chaining.

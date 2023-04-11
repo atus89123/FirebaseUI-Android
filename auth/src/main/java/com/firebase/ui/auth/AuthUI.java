@@ -85,10 +85,10 @@ import androidx.annotation.StyleRes;
  * application uses the default {@link FirebaseApp} instance, an AuthUI instance can be retrieved
  * simply by calling {@link AuthUI#getInstance()}. If an alternative app instance is in use, call
  * {@link AuthUI#getInstance(FirebaseApp)} instead, passing the appropriate app instance.
- * <p>
- * <p>
+ *
+ *
  * See the
- * <a href="https://github.com/firebase/FirebaseUI-Android/blob/master/auth/README.md#table-of-contents">README</a>
+ * https://github.com/firebase/FirebaseUI-Android/blob/master/auth/README.md#table-of-contents"
  * for examples on how to get started with FirebaseUI Auth.
  */
 public final class AuthUI {
@@ -247,7 +247,7 @@ public final class AuthUI {
 
     /**
      * Returns true if AuthUI can handle the intent.
-     * <p>
+     *
      * AuthUI handle the intent when the embedded data is an email link. If it is, you can then
      * specify the link in {@link SignInIntentBuilder#setEmailLink(String)} before starting AuthUI
      * and it will be handled immediately.
@@ -665,7 +665,7 @@ public final class AuthUI {
 
             /**
              * Enables or disables creating new accounts in the email sign in flows.
-             * <p>
+             *
              * Account creation is enabled by default.
              */
             @NonNull
@@ -677,7 +677,7 @@ public final class AuthUI {
             /**
              * Configures the requirement for the user to enter first and last name in the email
              * sign up flow.
-             * <p>
+             *
              * Name is required by default.
              */
             @NonNull
@@ -690,7 +690,7 @@ public final class AuthUI {
              * Enables email link sign in instead of password based sign in. Once enabled, you must
              * pass a valid {@link ActionCodeSettings} object using
              * {@link #setActionCodeSettings(ActionCodeSettings)}
-             * <p>
+             *
              * You must enable Firebase Dynamic Links in the Firebase Console to use email link
              * sign in.
              *
@@ -705,7 +705,7 @@ public final class AuthUI {
 
             /**
              * Sets the {@link ActionCodeSettings} object to be used for email link sign in.
-             * <p>
+             *
              * {@link ActionCodeSettings#canHandleCodeInApp()} must be set to true, and a valid
              * continueUrl must be passed via {@link ActionCodeSettings.Builder#setUrl(String)}.
              * This URL must be allowlisted in the Firebase Console.
@@ -721,7 +721,7 @@ public final class AuthUI {
 
             /**
              * Disables allowing email link sign in to occur across different devices.
-             * <p>
+             *
              * This cannot be disabled with anonymous upgrade.
              */
             @NonNull
@@ -842,7 +842,7 @@ public final class AuthUI {
              * This is not to be called with
              * {@link #setBlockedCountries(List)}.
              * If both are called, an exception will be thrown.
-             * <p>
+             *
              * Inputting an e-164 country code (e.g. '+1') will include all countries with
              * +1 as its code.
              * Example input: {'+52', 'us'}
@@ -879,7 +879,7 @@ public final class AuthUI {
              * This is not to be called with
              * {@link #setAllowedCountries(List)}.
              * If both are called, an exception will be thrown.
-             * <p>
+             *
              * Inputting an e-164 country code (e.g. '+1') will include all countries with
              * +1 as its code.
              * Example input: {'+52', 'us'}
@@ -1194,8 +1194,8 @@ public final class AuthUI {
             /**
              * Specifies the additional permissions to be requested.
              *
-             * <p> Available permissions can be found
-             * <ahref="https://developer.github.com/apps/building-oauth-apps/scopes-for-oauth-apps/#available-scopes">here</a>.
+             * Available permissions can be found
+             * https://developer.github.com/apps/building-oauth-apps/scopes-for-oauth-apps/#available-scopes".
              *
              * @deprecated Please use {@link #setScopes(List)} instead.
              */
@@ -1361,8 +1361,8 @@ public final class AuthUI {
          * Specifies the set of supported authentication providers. At least one provider must
          * be specified. There may only be one instance of each provider. Anonymous provider cannot
          * be the only provider specified.
-         * <p>
-         * <p>If no providers are explicitly specified by calling this method, then the email
+         *
+         *If no providers are explicitly specified by calling this method, then the email
          * provider is the default supported provider.
          *
          * @param idpConfigs a list of {@link IdpConfig}s, where each {@link IdpConfig} contains the
@@ -1422,8 +1422,8 @@ public final class AuthUI {
          * Enables or disables the use of Smart Lock for Passwords in the sign in flow. To
          * (en)disable hint selector and credential selector independently use {@link
          * #setIsSmartLockEnabled(boolean, boolean)}
-         * <p>
-         * <p>SmartLock is enabled by default.
+         *
+         *SmartLock is enabled by default.
          *
          * @param enabled enables smartlock's credential selector and hint selector
          */
@@ -1435,8 +1435,8 @@ public final class AuthUI {
         /**
          * Enables or disables the use of Smart Lock for Passwords credential selector and hint
          * selector.
-         * <p>
-         * <p>Both selectors are enabled by default.
+         *
+         *Both selectors are enabled by default.
          *
          * @param enableCredentials enables credential selector before signup
          * @param enableHints       enable hint selector in respective signup screens
@@ -1463,8 +1463,8 @@ public final class AuthUI {
         /**
          * Forces the sign-in method choice screen to always show, even if there is only
          * a single provider configured.
-         * <p>
-         * <p>This is false by default.
+         *
+         *This is false by default.
          *
          * @param alwaysShow if true, force the sign-in choice screen to show.
          */
@@ -1481,8 +1481,8 @@ public final class AuthUI {
         /**
          * Enable or disables the orientation for small devices to be locked in
          * Portrait orientation
-         * <p>
-         * <p>This is false by default.
+         *
+         *This is false by default.
          *
          * @param lockOrientation if true, force the activities to be in Portrait orientation.
          */

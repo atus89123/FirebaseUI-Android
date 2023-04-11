@@ -47,10 +47,10 @@ import static org.mockito.Mockito.when;
 
 /**
  * Unit tests for {@link LinkingSocialProviderResponseHandler}.
- * <p>
+ *
  * This handler is used by WelcomeBackIdpPrompt. This prompt handles the case where a user attempts
  * to log in with an IDP, but there is a user that has a different IDP with the same email.
- * <p>
+ *
  * In this case, the handler will link the provider to the existing firebase user. When the user
  * is anonymous, a triple linking case occurs.
  */

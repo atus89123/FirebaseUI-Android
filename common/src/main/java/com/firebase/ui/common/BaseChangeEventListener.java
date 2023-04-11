@@ -22,7 +22,7 @@ public interface BaseChangeEventListener<S, E> {
     /**
      * Callback triggered after all child events in a particular snapshot have been
      * processed.
-     * <p>
+     *
      * Useful for batch events, such as removing a loading indicator after initial load
      * or a large update batch.
      */

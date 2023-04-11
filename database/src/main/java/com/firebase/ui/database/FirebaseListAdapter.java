@@ -21,7 +21,7 @@ import androidx.lifecycle.OnLifecycleEvent;
  * This class is a generic way of backing an Android {@link android.widget.ListView} with a Firebase
  * location. It handles all of the child events at the given Firebase location. It marshals received
  * data into the given class type.
- * <p>
+ *
  * See the <a href="https://github.com/firebase/FirebaseUI-Android/blob/master/database/README.md">README</a>
  * for an in-depth tutorial on how to set up the FirebaseListAdapter.
  *
@@ -128,7 +128,7 @@ public abstract class FirebaseListAdapter<T> extends BaseAdapter implements Fire
      * each item that needs to be displayed. The first two arguments correspond to the mLayout and
      * mModelClass given to the constructor of this class. The third argument is the item's position
      * in the list.
-     * <p>
+     *
      * Your implementation should populate the view using the data contained in the model.
      *
      * @param v        The view to populate

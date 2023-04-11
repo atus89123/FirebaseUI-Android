@@ -17,7 +17,7 @@ import androidx.recyclerview.widget.RecyclerView;
  * This class is a generic way of backing a {@link RecyclerView} with a Firebase location. It
  * handles all of the child events at the given Firebase location and marshals received data into
  * the given class type.
- * <p>
+ *
  * See the <a href="https://github.com/firebase/FirebaseUI-Android/blob/master/database/README.md">README</a>
  * for an in-depth tutorial on how to set up the FirebaseRecyclerAdapter.
  *

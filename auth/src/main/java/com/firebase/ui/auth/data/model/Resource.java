@@ -6,7 +6,7 @@ import androidx.annotation.RestrictTo;
 
 /**
  * Base state model object.
- * <p>
+ *
  * This state can either be successful or not. In either case, it must be complete to represent
  * these states.
  */

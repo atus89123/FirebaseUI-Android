@@ -70,7 +70,7 @@ public class InvisibleFragmentBase extends FragmentBase {
     /**
      * For certain actions (like finishing or hiding the progress dialog) we want to make sure
      * that we have shown the progress state for at least MIN_SPINNER_MS to prevent flickering.
-     * <p>
+     *
      * This method performs some action after the window has passed, or immediately if we have
      * already waited longer than that.
      */

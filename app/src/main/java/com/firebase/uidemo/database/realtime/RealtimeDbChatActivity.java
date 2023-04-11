@@ -31,7 +31,7 @@ import androidx.recyclerview.widget.RecyclerView;
  * Class demonstrating how to setup a {@link RecyclerView} with an adapter while taking sign-in
  * states into consideration. Also demonstrates adding data to a ref and then reading it back using
  * the {@link FirebaseRecyclerAdapter} to build a simple chat app.
- * <p>
+ *
  * For a general intro to the RecyclerView, see <a href="https://developer.android.com/training/material/lists-cards.html">Creating
  * Lists</a>.
  */

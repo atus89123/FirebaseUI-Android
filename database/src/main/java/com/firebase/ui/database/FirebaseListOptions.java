@@ -70,7 +70,7 @@ public final class FirebaseListOptions<T> {
 
         /**
          * Directly set the {@link ObservableSnapshotArray} to observe.
-         * <p>
+         *
          * Do not call this method after calling {@code setQuery}.
          */
         @NonNull
@@ -83,7 +83,7 @@ public final class FirebaseListOptions<T> {
 
         /**
          * Set the query to listen on and a {@link SnapshotParser} to parse data snapshots.
-         * <p>
+         *
          * Do not call this method after calling {@link #setSnapshotArray(ObservableSnapshotArray)}.
          */
         @NonNull
@@ -106,7 +106,7 @@ public final class FirebaseListOptions<T> {
         /**
          * Set an indexed query to listen on and a {@link SnapshotParser} to parse data snapshots.
          * The keyQuery is used to find a list of IDs, which are then queried at the dataRef.
-         * <p>
+         *
          * Do not call this method after calling {@link #setSnapshotArray(ObservableSnapshotArray)}.
          */
         @NonNull
@@ -123,7 +123,7 @@ public final class FirebaseListOptions<T> {
          * Set an indexed query to listen on and a {@link Class} to which data snapshots should be
          * converted. The keyQuery is used to find a list of keys, which are then queried at the
          * dataRef.
-         * <p>
+         *
          * Do not call this method after calling {@link #setSnapshotArray(ObservableSnapshotArray)}.
          */
         @NonNull

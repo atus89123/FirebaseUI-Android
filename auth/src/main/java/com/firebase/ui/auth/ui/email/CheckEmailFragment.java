@@ -38,7 +38,7 @@ import static com.firebase.ui.auth.AuthUI.EMAIL_LINK_PROVIDER;
 
 /**
  * Fragment that shows a form with an email field and checks for existing accounts with that email.
- * <p>
+ *
  * Host Activities should implement {@link CheckEmailFragment.CheckEmailListener}.
  */
 @RestrictTo(RestrictTo.Scope.LIBRARY_GROUP)

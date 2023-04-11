@@ -75,7 +75,7 @@ public abstract class BaseObservableSnapshotArray<S, E, L extends BaseChangeEven
      * ChangeEventType#ADDED} event for each item that already exists in the array at the time of
      * attachment, a {@link BaseChangeEventListener#onDataChanged()} event if one has occurred, and
      * then receive all future child events.
-     * <p>
+     *
      * If this is the first listener, {@link #onCreate()} will be called.
      */
     @CallSuper
@@ -101,7 +101,7 @@ public abstract class BaseObservableSnapshotArray<S, E, L extends BaseChangeEven
 
     /**
      * Remove a listener from the array.
-     * <p>
+     *
      * If no listeners remain, {@link #onDestroy()} will be called.
      */
     @CallSuper
@@ -135,7 +135,7 @@ public abstract class BaseObservableSnapshotArray<S, E, L extends BaseChangeEven
     /**
      * Called when the {@link BaseObservableSnapshotArray} is inactive and should stop listening to
      * the Firebase database.
-     * <p>
+     *
      * All data and saved state should also be cleared here.
      */
     @CallSuper

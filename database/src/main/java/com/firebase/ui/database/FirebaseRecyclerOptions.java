@@ -60,7 +60,7 @@ public final class FirebaseRecyclerOptions<T> {
 
         /**
          * Directly set the {@link ObservableSnapshotArray} to be listened to.
-         * <p>
+         *
          * Do not call this method after calling {@code setQuery}.
          */
         @NonNull
@@ -74,7 +74,7 @@ public final class FirebaseRecyclerOptions<T> {
         /**
          * Set the Firebase query to listen to, along with a {@link SnapshotParser} to parse
          * snapshots into model objects.
-         * <p>
+         *
          * Do not call this method after calling {@link #setSnapshotArray(ObservableSnapshotArray)}.
          */
         @NonNull
@@ -89,7 +89,7 @@ public final class FirebaseRecyclerOptions<T> {
         /**
          * Set the Firebase query to listen to, along with a {@link Class} to which snapshots should
          * be parsed.
-         * <p>
+         *
          * Do not call this method after calling {@link #setSnapshotArray(ObservableSnapshotArray)}.
          */
         @NonNull
@@ -102,7 +102,7 @@ public final class FirebaseRecyclerOptions<T> {
          * Set an indexed Firebase query to listen to, along with a {@link SnapshotParser} to parse
          * snapshots into model objects. Keys are identified by the {@code keyQuery} and then data
          * is fetched using those keys from the {@code dataRef}.
-         * <p>
+         *
          * Do not call this method after calling {@link #setSnapshotArray(ObservableSnapshotArray)}.
          */
         @NonNull
@@ -119,7 +119,7 @@ public final class FirebaseRecyclerOptions<T> {
          * Set an indexed Firebase query to listen to, along with a {@link Class} to which snapshots
          * should be parsed. Keys are identified by the {@code keyQuery} and then data is fetched
          * using those keys from the {@code dataRef}.
-         * <p>
+         *
          * Do not call this method after calling {@link #setSnapshotArray(ObservableSnapshotArray)}.
          */
         @NonNull
