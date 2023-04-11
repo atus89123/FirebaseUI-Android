@@ -41,6 +41,9 @@ android {
             consumerProguardFiles("proguard-rules.pro")
         }
     }
+
+
+    tasks.withType(Javadoc::class.java).all { enabled = false }
 }
 
 dependencies {
